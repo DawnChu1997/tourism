@@ -1,0 +1,29 @@
+body{
+	background-color: #FFF7E8;
+	font-family: 'Noto Serif TC', serif;
+}
+
+input[name="username"] {
+	padding:5px 15px; background:#F1DEFF; border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 20px;
+	border-radius: 5px; 
+}
+
+input[name="password"] {
+	padding:5px 15px; background:#F1DEFF; border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 20px;
+	border-radius: 5px; 
+}
+
+a{
+	text-decoration:none;
+	color:#FF6363;
+	font-size:110%;
+}
+
+img{
+	width:100px;
+	height: 100px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dawn Tourism</title>
+	<link rel="stylesheet" href="login.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<form action="upload.php" enctype="multipart/form-data" method="post">
+    	<table  align="center" valign="center">
+	        	<tr>
+	        		<td>地區
+	        		<input type="text" name="area" value=""></td>
+	        	</tr>
+	        	<tr>
+	        		<td>名稱
+	        		<input type="text" name="attractions" value=""></td>
+	        	</tr>
+	        	<tr>
+	        		<td>地址
+	        		<input type="text" name="place" value=""></td>
+	        	</tr>
+	       		<tr>
+	       			<td>介紹
+	       			<textarea name="introduction" rows="5" cols="30"></textarea></td>
+	       		</tr>
+	       		<tr>
+	       			<td>美照
+	       			<input type="file" name="photo"></td>
+	       		</tr>
+	        	<tr colspan="2">
+	        		<td align="right"><input type="submit" name="submit" value="送出"></td>
+	        	</tr>
+    	</table>
+	</form>
+</body>
+</html>

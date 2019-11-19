@@ -1,0 +1,27 @@
+body{
+	background-image: url( ' https://www.shutterstock.com/zh-Hant/blog/wp-content/uploads/sites/11/2018/09/shutterstock_587499428.jpg' );
+　	background-color: block;
+	font-family: 'Pacifico', cursive;
+}
+
+ul{
+	list-style-type:none;
+	font-size:x-large;
+}
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+a:hover {
+color:gray;
+}
+
+a:active {
+text-decoration:none;
+color:gray;
+}
+
+
+
